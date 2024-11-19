@@ -819,14 +819,11 @@ echo'<br />
 			echo '<tr>
 					<td>'.__("Allegati","albo-online").'</td>
 					<td>'.__("N.","albo-online").' '.$numAllegati.'</td>';
-			if($numAllegati>0){
-				$Passato=true;
-					echo '<td colspan="2">'.__("Ok","albo-online").'</td>';
-				}else{
-					$Passato=false;
-					echo '<td>'.__("Da revisionare","albo-online").'</td>
-					      <td><a href="?page=atti&amp;id='.$id.'&amp;action=UpAllegati&amp;ref=approva-atto" class="add-new-h2">'.__("Inserisci Allegato","albo-online").'</a></td>';
-				}
+					if($numAllegati>0){
+						echo '<td colspan="2">'.__("Ok","albo-online").'</td>';
+					} else {
+						echo '<td colspan="2">'.__("Nessun allegato presente","albo-online").'</td>';
+					}
 			echo '</tr>';
 		}
 		if($Passato){
