@@ -1073,7 +1073,7 @@ static function add_albo_plugin_visatto($plugin_array) {
 		if($permProp==7 Or $permProp==6 Or $permProp==3 Or $permProp==2)
 			$StatoCartella=$Cartella."<br />";
 			echo '<div class="welcome-panel" style="background-color:#f0f0f1; padding:20px; border:1px solid #ddd;">
-			<h3 style="text-align:center; font-weight: 800;">' . __('Albo Online APSP Cesare Bendetti', 'albo-online') . '</h3>
+			<h3 style="text-align:center; font-weight: 800;">' . __('Albo Online APSP Borgo Valsugana', 'albo-online') . '</h3>
 			<h3 style="text-align:center;">' . __('Sommario', 'albo-online') . '</h3>
 			<p style="text-align:left; font-size:1em;">' . __('Versione', 'albo-online') . ' <strong>' . $this->version . '</strong></p>
 			
@@ -1109,11 +1109,8 @@ static function add_albo_plugin_visatto($plugin_array) {
 			</table>
 		
 			<div style="margin-top:20px; text-align:center;">
-				<a href="http://apspcesarebenedetti.chebellagiornata.it/wp-content/uploads/2024/11/Albo-Pretorio-On-line.pdf" target="_blank" style="text-decoration:none;">
+				<a href="https://archive.org/details/albo-pretorio-on-line-manuale" target="_blank" style="text-decoration:none;">
 					<button style="background-color:#f0f0f1; color:#000; border:1px solid #ddd; padding:10px 20px; cursor:pointer;">' . __('Manuale Albo Pretorio', 'albo-online') . '</button>
-				</a>
-				<a href="https://www.youtube.com/embed/uEiSlrAPjas" target="_blank" style="text-decoration:none; margin-left:10px;">
-					<button style="background-color:#f0f0f1; color:#000; border:1px solid #ddd; padding:10px 20px; cursor:pointer;">' . __('Video Tutorial', 'albo-online') . '</button>
 				</a>
 			</div>
 		</div>
